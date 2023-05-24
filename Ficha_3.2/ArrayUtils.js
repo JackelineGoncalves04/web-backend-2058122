@@ -91,16 +91,20 @@ module.exports = {
         }
         return array1;
 
+    },
+
+    SubArray_2:  function(array, startIndex, endIndex){
+        array_novo = [];
+
+        for (let i = startIndex; i <= endIndex; i++) {
+            array_novo.push(array[i]);
+
+        }
+        return array_novo;
     }
 
-
-
-
-    
-    
-    
-
 };
+
 
 
 

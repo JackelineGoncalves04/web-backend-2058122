@@ -1,0 +1,38 @@
+{
+    "person1":  {
+        "firtsname" : "Pedro",
+        "lastname": "Lopes",
+        "profession" : "Teacher",
+        "age" : 22,
+        "id" : 1
+    
+        },
+
+    "person2":  {
+        "firtsname" : "Jacky",
+        "lastname": "Goncalves",
+        "profession" : "Student",
+        "age" : 18,
+        "id" : 2
+        
+        },
+
+    "person3":  {
+        "firtsname" : "Rick",
+        "lastname": "Lula",
+        "profession" : "Medic",
+        "age" : 52,
+        "id" : 3
+        
+        },
+
+    "person4":  {
+        "firtsname" : "David",
+        "lastname": "Hernandez",
+        "profession" : "Doctor",
+        "age" : 80,
+        "id" : 4
+        
+        }
+
+}

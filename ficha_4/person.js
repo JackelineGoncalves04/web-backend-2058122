@@ -1,5 +1,5 @@
-function Person(firstName, lastName, age){
-    this.firstName =firstName,
+function Person(firstName, lastName){
+    this.firstName = firstName,
     this.lastName = lastName,
     this.fullName = function() {
         return this.firstName + ' ' + this.lastName;

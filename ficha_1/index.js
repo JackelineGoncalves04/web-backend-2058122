@@ -124,3 +124,15 @@ function calcular_media(array){
 
 
 //------------------------------------------------------------------------------------
+
+
+
+function practica (num, step){
+
+    for (let i = num; i >= 0 ; i -= step) {
+        console.log(i);
+        
+    }
+}
+
+practica(100,5);

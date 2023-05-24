@@ -26,6 +26,7 @@ function performDownload(fn_s, fn_u, fn_c){
 performDownload(started, update, completed);
 
 
+const { practica } = require('./ArrayUtils');
 var ArrayUtils = require('./ArrayUtils');
 
 var array = [1,2, 8,2,3];
@@ -37,7 +38,7 @@ var maximo = ArrayUtils.Maximo(array);
 var minimo = ArrayUtils.Minimo(array);
 var media = ArrayUtils.Media(array);
 var indice = ArrayUtils.Indice(array, elemento);
-var subArray = ArrayUtils.SubArray(array, 1, 4);
+var SubArray_2 = ArrayUtils.SubArray_2(array, 3, 4);
 var subArray = ArrayUtils.SubArray(array, 1, 4);
 var testar_tamanho = ArrayUtils.isSameLength(array1, array2);
 var invertir_lista = ArrayUtils.Reverse(array);
@@ -48,17 +49,17 @@ var concatenar = ArrayUtils.Concatenate(array1, array2);
 
 
 
-console.log(empty);
-console.log(maximo);
-console.log(minimo);
-console.log(media);
-console.log(indice);
-console.log(subArray);
-console.log(testar_tamanho);
-console.log(invertir_lista);
-console.log(cambiar);
-console.log(contiene);
-console.log(concatenar); 
+// console.log(empty);
+// console.log(maximo);
+// console.log(minimo);
+// console.log(media);
+// console.log(indice);
+// console.log(testar_tamanho);
+// console.log(invertir_lista);
+// console.log(cambiar);
+ console.log(contiene);
+// console.log(concatenar); 
+// console.log(SubArray_2);
 
 
 
